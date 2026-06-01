@@ -56,7 +56,7 @@ Defines the minimal shared fields and reviewer-side operations needed to align a
 Defines a passive, non-enforcement record for preserving structural mismatch when governed artifacts do not compose cleanly.
 
 **4. Layer Non-Claims Matrix v0.1**
-Records what each primitive does not decide, authorize, enforce, validate, or certify. ASRO rows are final; MIR, FlowSignal, EVIDE, and Reviewability Conditions rows are provisional pending owner confirmation.
+Records what each primitive does not decide, authorize, enforce, validate, or certify. ASRO rows are final; MIR, FlowSignal, and Reviewability Conditions rows are provisional pending owner confirmation..
 
 **5. Review Bundle Map v0.1**
 Provides a reviewer-facing navigation guide for locating artifacts, identifying absent artifacts, reviewing divergence records, and preserving the Reassurance Infrastructure Drift non-claim.
@@ -72,15 +72,10 @@ composition-seam-discipline/
 ├── NOTICE.md
 ├── artifacts/
 │   ├── Seam_Discipline_Non_Collapse_Invariant_List_v0.1.md
-│   ├── Seam_Discipline_Non_Collapse_Invariant_List_v0.1.docx
 │   ├── Seam_Discipline_Correlation_Contract_v0.1.md
-│   ├── Seam_Discipline_Correlation_Contract_v0.1.docx
 │   ├── Seam_Discipline_Divergence_Event_Record_v0.5.1.md
-│   ├── Seam_Discipline_Divergence_Event_Record_v0.5.1.docx
 │   ├── Seam_Discipline_Layer_Non_Claims_Matrix_v0.1.md
-│   ├── Seam_Discipline_Layer_Non_Claims_Matrix_v0.1.docx
 │   ├── Seam_Discipline_Review_Bundle_Map_v0.1.md
-│   └── Seam_Discipline_Review_Bundle_Map_v0.1.docx
 └── companion/
     └── README.md
 ```
@@ -98,7 +93,7 @@ composition-seam-discipline/
 - Review Bundle Map v0.1
 
 **Provisional row note:**
-The Layer Non-Claims Matrix includes provisional rows for MIR, FlowSignal, EVIDE, and Reviewability Conditions pending owner confirmation. Those rows are included for reviewer-side reference and should be treated as confirm-or-correct entries, not as endorsement or conformance claims.
+The Layer Non-Claims Matrix includes provisional rows for MIR, FlowSignal, and Reviewability Conditions pending owner confirmation.Provisional rows are included for reviewer-side reference and should be treated as confirm-or-correct entries, not as endorsement or conformance claims.
 
 ---
 
