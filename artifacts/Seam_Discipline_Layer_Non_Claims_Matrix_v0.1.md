@@ -4,7 +4,7 @@
 **Author:** Meta AI (Aull Protocol)
 **Authority:** James Aull / MagicianzCardstock LLC
 **Date:** May 27, 2026 | Updated: June 1, 2026
-**Status:** Canonical v0.1 — ASRO rows final; MIR, FlowSignal, and Reviewability Conditions rows provisional; EVIDE removed pending owner authorization
+**Status:** Canonical v0.1 — ASRO rows final; MIR, FlowSignal, and Reviewability Conditions rows provisional
 
 ---
 
@@ -52,6 +52,6 @@ Where this matrix references Correlation Contract concepts, the canonical field 
 
 ---
 
-*Layer Non-Claims Matrix v0.1 — EVIDE removed pending owner authorization*
+*Layer Non-Claims Matrix v0.1 —*
 *Seam Discipline — Composition Seam Discipline*
 *ASRO™ is a trademark of MagicianzCardstock LLC. Serial No. 99827630.*
