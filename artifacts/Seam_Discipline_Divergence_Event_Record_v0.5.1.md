@@ -4,7 +4,7 @@
 **Author:** Gemini / Adversarial Designer (Aull Protocol)
 **Authority:** James Aull / MagicianzCardstock LLC
 **Date:** May 27, 2026
-**Status:** Canonical v0.5.1 — EVIDE_CLOSURE artifact tag removed pending owner authorization
+**Status:** Canonical v0.5.1
 
 ---
 
