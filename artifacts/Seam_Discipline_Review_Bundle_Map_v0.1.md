@@ -46,7 +46,6 @@
 |---|---|---|---|---|---|---|---|---|
 | `asro-v0.2` | Witness Record | [UUID] | [start–end] | [sha256] | [sha256] | [uri] | `verification_not_yet_performed` | — |
 | `flowsignal-v0.1` | Admissibility Record | [UUID] | [start–end] | [sha256] | [sha256] | [uri] | `verification_not_yet_performed` | — |
-| `evide-v0.1` | Closure Record | [UUID] | [start–end] | [sha256] | [sha256] | [uri] | `verification_not_yet_performed` | — |
 | `mir-v0.1` | Pre-Bind Record | [UUID] | [start–end] | [sha256] | [sha256] | [uri] | `verification_not_yet_performed` | — |
 
 **Multi-artifact note:** If `asro-v0.2` produced both a Standard Profile and a Compact Hash Profile for the same event, both appear as separate rows with the same `layer_id` and `decision_correlation_id` but different `artifact_hash` values. The reviewer must independently verify each row.
