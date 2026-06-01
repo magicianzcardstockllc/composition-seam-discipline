@@ -7,7 +7,7 @@ These documents are not part of the canonical artifact stack. They are reviewer-
 ## Contents
 
 **Cold-test scenario** *(pending field-name normalization)*
-A worked example using three mock artifacts — ASRO witness, FlowSignal admissibility record, EVIDE closure stub — demonstrating the Correlation Contract verification probe sequence, a simulated anchoring failure, and the resulting Divergence Event Record.
+A worked example using three mock artifacts — ASRO witness, FlowSignal admissibility record, MIR pre-bind record — demonstrating the Correlation Contract verification probe sequence, a simulated anchoring failure, and the resulting Divergence Event Record.
 
 Field names in the cold-test scenario are normalized to the canonical underscore format from the Correlation Contract and DER v0.5.1 specs:
 - `decision_correlation_id`
