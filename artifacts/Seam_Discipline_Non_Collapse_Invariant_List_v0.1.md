@@ -32,7 +32,7 @@ Correlation is permitted — a layer may reference another layer's artifact by h
 
 Composition of multiple layer artifacts must not produce a unified artifact in which individual layer boundaries are indistinguishable.
 
-When artifacts from MIR, ASRO, FlowSignal, and EVIDE are brought together for review, each artifact must retain its own provenance, non-claims, layer identity, and independent verifiability. The composed record is a map, not a merger.
+When artifacts from MIR, ASRO, and FlowSignal are brought together for review, each artifact must retain its own provenance, non-claims, layer identity, and independent verifiability. The composed record is a map, not a merger.
 
 **Non-claim:** This invariant does not prohibit review bundles or correlation records. It prohibits the production of a single artifact that speaks with the combined authority of multiple layers without preserving per-layer attribution.
 
