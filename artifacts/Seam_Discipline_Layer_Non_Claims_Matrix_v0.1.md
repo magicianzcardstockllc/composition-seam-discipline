@@ -4,7 +4,6 @@
 **Author:** Meta AI (Aull Protocol)
 **Authority:** James Aull / MagicianzCardstock LLC
 **Date:** May 27, 2026 | Updated: June 1, 2026
-**Status:** Canonical v0.1 — ASRO rows final; MIR, FlowSignal, and Reviewability Conditions rows provisional
 
 ---
 
@@ -31,9 +30,6 @@ Where this matrix references Correlation Contract concepts, the canonical field 
 | Primitive | Does NOT Decide | Does NOT Authorize | Does NOT Enforce | Does NOT Validate or Certify |
 |---|---|---|---|---|
 | **ASRO — Witness** | Admissibility, liability, safety, policy correctness, legal authority | Execution, continuation, consequence binding | Runtime mutation, response enforcement, regulatory filing | Semantic truth, structural correctness, behavioral compliance, model internals, human oversight accuracy. ASRO records and reports witness-surface conditions only. |
-| **MIR — Substrate / History** *(provisional)* | Admissibility, witness status, evidentiary closure | Use of history as permission, replay as authorization | Retention policy, deletion, alteration of substrate records | Completeness of history, authenticity beyond cryptographic hash, intent of actions |
-| **FlowSignal — Admissibility** *(provisional)* | Witness status, truth of outputs, safety certification | Long-term permission, policy correctness, legal compliance beyond immediate action | Post-action evidentiary closure, ongoing monitoring | Correctness of upstream witness records, completeness of evidence |
-| **Reviewability Conditions** *(provisional)* | Admissibility, witness validity, closure status | Use of reviewability as authorization to proceed | Enforcement of review outcomes | Sufficiency of evidence for any specific decision |
 
 ---
 
@@ -47,11 +43,12 @@ Where this matrix references Correlation Contract concepts, the canonical field 
 
 ---
 
-## June 9 Owner Confirmation
-
+*Layer Non-Claims Matrix v0.1 — Canonical*
+*Seam Discipline — Composition Seam Discipline*
+*ASRO™ is a trademark of MagicianzCardstock LLC. Serial No. 99827630.*
 
 ---
 
-*Layer Non-Claims Matrix v0.1 —*
-*Seam Discipline — Composition Seam Discipline*
-*ASRO™ is a trademark of MagicianzCardstock LLC. Serial No. 99827630.*
+## Owner-Sequence Rule
+
+External-layer rows must not be added to this matrix unless the layer owner has explicitly reviewed and authorized the row. Citing, correcting, or discussing a layer does not constitute adoption of Seam Discipline or authorization for inclusion.
