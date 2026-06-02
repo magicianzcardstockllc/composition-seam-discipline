@@ -127,8 +127,8 @@ It does not resolve mismatch. It does not assign response authority. It does not
           },
           "artifact_type_tag": {
             "type": "string",
-            "enum": ["ASRO_WITNESS_V02", "FLOWSIGNAL_ADMISSIBILITY_V01", "MIR_PREBIND_V01"],
-            "description": "Taxonomy marker classifying the source primitive layer of the artifact."
+            "description": "Owner-authorized taxonomy marker classifying the source primitive layer of the artifact. The Seam Discipline does not define artifact type tags for external layers without owner authorization.",
+            "examples": ["ASRO_WITNESS_V02"]
           },
           "bind_event_ref": {
             "type": "string",
