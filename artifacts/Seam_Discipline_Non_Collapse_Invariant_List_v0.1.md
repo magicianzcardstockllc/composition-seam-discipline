@@ -32,7 +32,7 @@ Correlation is permitted — a layer may reference another layer's artifact by h
 
 Composition of multiple layer artifacts must not produce a unified artifact in which individual layer boundaries are indistinguishable.
 
-When artifacts from MIR, ASRO, and FlowSignal are brought together for review, each artifact must retain its own provenance, non-claims, layer identity, and independent verifiability. The composed record is a map, not a merger.
+When artifacts from independently governed layers are brought together for review, each artifact must retain its own provenance, non-claims, layer identity, and independent verifiability. The composed record is a map, not a merger.
 
 **Non-claim:** This invariant does not prohibit review bundles or correlation records. It prohibits the production of a single artifact that speaks with the combined authority of multiple layers without preserving per-layer attribution.
 
@@ -42,7 +42,6 @@ When artifacts from MIR, ASRO, and FlowSignal are brought together for review, e
 
 No layer may inherit authority, admissibility weight, or enforcement power from another layer's artifact.
 
-A reference to another layer's record is a reference — not an elevation. If ASRO witnesses that policy v1.2 was active at bind-time, that witness record does not authorize FlowSignal to resolve ALLOW. FlowSignal must make its own admissibility determination.
 
 **Non-claim:** This invariant does not prohibit layers from consuming each other's artifacts as inputs. It prohibits one layer treating another layer's finding as a substitute for its own decision.
 
