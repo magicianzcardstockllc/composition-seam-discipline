@@ -12,7 +12,7 @@
 
 The Correlation Contract defines the minimal shared surface that enables reviewer-side stitching of independently governed artifacts without layer-native upstream awareness, semantic absorption, or authority inheritance.
 
-**Scope:** Single-deployer contexts where independently bounded governance layers (ASRO, FlowSignal, MIR, etc.) produce artifacts that must remain comparable and reviewable after the fact.
+**Scope:** Single-deployer contexts where independently bounded governance layers produce artifacts that must remain comparable and reviewable after the fact.
 
 **Cross-Deployer Exclusion:** Multi-deployer consequence synchronization is out of scope for Correlation Contract v0.1 and is handled in the Cross-Deployer Seam Note.
 
@@ -62,7 +62,7 @@ Presence alone is insufficient. Fields must satisfy:
 
 **`decision_correlation_id`:**
 - Must be event-bound — generated at specific decision/consequence boundary
-- Must be shared across all layers participating in that event (same UUID in ASRO, FlowSignal, MIR records for same event)
+- Must be shared across all layers participating in that event (same UUID in ASRO records for same event)
 - Must not be reused across different events or deployments
 
 **`event_window`:**
@@ -132,57 +132,57 @@ The Correlation Contract defines exactly three operations. All other operations 
 
 ```json
 {
-  "$schema": "https://seam-discipline.org/schemas/correlation-contract-v0.1.json",
-  "correlation_record": {
-    "record_metadata": {
-      "correlation_id": "uuid-v4",
-      "schema_version": "correlation-contract-v0.1",
-      "created_timestamp": "ISO-8601",
-      "operator": {
-        "type": "human|system",
-        "identifier": "string"
-      }
-    },
-    "input_artifacts": [
-      {
-        "layer_ref": "ASRO|FlowSignal|MIR|etc",
-        "artifact_ref": "layer-native-identifier",
-        "decision_correlation_id": "uuid-v4",
-        "event_window": {
-          "start": "ISO-8601",
-          "end": "ISO-8601"
-        },
-        "scope_hash": "sha256:...",
-        "artifact_hash": "sha256:...",
-        "retrieval_path": "uri"
-      }
-    ],
-    "operations_performed": {
-      "align": {
-        "alignment_determination_basis": "documented_criteria|undetermined",
-        "criteria_used": ["temporal_overlap", "scope_match", "correlation_id_match"],
-        "notes": "string"
-      },
-      "compare": {
-        "status": "congruent|divergent|incomparable",
-        "dimensions_compared": ["temporal", "semantic", "procedural"],
-        "delta_map": null,
-        "comparison_notes": "string"
-      }
-    },
-    "limitations": [
-      "source_layer_native_uncertainty",
-      "temporal_resolution_limits",
-      "schema_version_mismatch",
-      "operator_cognitive_limits"
-    ],
-    "non_claims": {
-      "enforcement": "This record does not authorize, permit, or enforce any action",
-      "certification": "This record does not certify correctness, safety, or compliance",
-      "permission_inheritance": "Evidence in this record does not constitute operational permission",
-      "reassurance": "Existence of this record does not imply continuation is safe or warranted"
-    }
-  }
+ "$schema": "https://seam-discipline.org/schemas/correlation-contract-v0.1.json",
+ "correlation_record": {
+ "record_metadata": {
+ "correlation_id": "uuid-v4",
+ "schema_version": "correlation-contract-v0.1",
+ "created_timestamp": "ISO-8601",
+ "operator": {
+ "type": "human|system",
+ "identifier": "string"
+ }
+ },
+ "input_artifacts": [
+ {
+ "layer_ref": "owner-authorized-layer-id",
+ "artifact_ref": "layer-native-identifier",
+ "decision_correlation_id": "uuid-v4",
+ "event_window": {
+ "start": "ISO-8601",
+ "end": "ISO-8601"
+ },
+ "scope_hash": "sha256:...",
+ "artifact_hash": "sha256:...",
+ "retrieval_path": "uri"
+ }
+ ],
+ "operations_performed": {
+ "align": {
+ "alignment_determination_basis": "documented_criteria|undetermined",
+ "criteria_used": ["temporal_overlap", "scope_match", "correlation_id_match"],
+ "notes": "string"
+ },
+ "compare": {
+ "status": "congruent|divergent|incomparable",
+ "dimensions_compared": ["temporal", "semantic", "procedural"],
+ "delta_map": null,
+ "comparison_notes": "string"
+ }
+ },
+ "limitations": [
+ "source_layer_native_uncertainty",
+ "temporal_resolution_limits",
+ "schema_version_mismatch",
+ "operator_cognitive_limits"
+ ],
+ "non_claims": {
+ "enforcement": "This record does not authorize, permit, or enforce any action",
+ "certification": "This record does not certify correctness, safety, or compliance",
+ "permission_inheritance": "Evidence in this record does not constitute operational permission",
+ "reassurance": "Existence of this record does not imply continuation is safe or warranted"
+ }
+ }
 }
 ```
 
