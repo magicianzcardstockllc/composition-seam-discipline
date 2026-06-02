@@ -45,9 +45,6 @@
 | `layer_id` | Artifact Type | `decision_correlation_id` | `event_window` | `scope_hash` | `artifact_hash` | Artifact Retrieval URI | Verification Status | Associated DER |
 |---|---|---|---|---|---|---|---|---|
 | `asro-v0.2` | Witness Record | [UUID] | [start–end] | [sha256] | [sha256] | [uri] | `verification_not_yet_performed` | — |
-| `flowsignal-v0.1` | Admissibility Record | [UUID] | [start–end] | [sha256] | [sha256] | [uri] | `verification_not_yet_performed` | — |
-| `mir-v0.1` | Pre-Bind Record | [UUID] | [start–end] | [sha256] | [sha256] | [uri] | `verification_not_yet_performed` | — |
-
 **Multi-artifact note:** If `asro-v0.2` produced both a Standard Profile and a Compact Hash Profile for the same event, both appear as separate rows with the same `layer_id` and `decision_correlation_id` but different `artifact_hash` values. The reviewer must independently verify each row.
 
 **`decision_correlation_id` consistency check:** All UUIDs in this column must be identical. If any row carries a different UUID, that divergence must be recorded in Section 4 before the reviewer proceeds with stitching.
