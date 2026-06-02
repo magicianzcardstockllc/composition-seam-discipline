@@ -56,6 +56,7 @@ Defines the minimal shared fields and reviewer-side operations needed to align a
 Defines a passive, non-enforcement record for preserving structural mismatch when governed artifacts do not compose cleanly.
 
 **4. Layer Non-Claims Matrix v0.1**
+Records the explicit negative space for each primitive in the composed system — what each layer does not decide, authorize, enforce, or certify. External-layer rows require owner authorization before inclusion.
 
 **5. Review Bundle Map v0.1**
 Provides a reviewer-facing navigation guide for locating artifacts, identifying absent artifacts, reviewing divergence records, and preserving the Reassurance Infrastructure Drift non-claim.
