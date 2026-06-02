@@ -1,21 +1,24 @@
-# companion/
+# Seam Discipline — Companion Materials
 
-This folder contains implementation support materials for the Seam Discipline v0.1.
+This folder contains non-canonical implementation support materials for the Seam Discipline.
 
-These documents are not part of the canonical artifact stack. They are reviewer-playbook support materials intended to help implementers understand how the canonical artifacts work in practice.
+Companion materials do not modify, override, or supersede the canonical artifact stack in `/artifacts/`.
+
+---
 
 ## Contents
 
-**Cold-test scenario** *(pending field-name normalization)*
-A worked example using three mock artifacts — ASRO witness, FlowSignal admissibility record, MIR pre-bind record — demonstrating the Correlation Contract verification probe sequence, a simulated anchoring failure, and the resulting Divergence Event Record.
+Field names in any companion cold-test scenario should be normalized to the canonical underscore format from the Correlation Contract and DER v0.5.1 specs:
 
-Field names in the cold-test scenario are normalized to the canonical underscore format from the Correlation Contract and DER v0.5.1 specs:
 - `decision_correlation_id`
 - `event_window`
 - `scope_hash`
 - `artifact_hash`
 - `alignment_determination_basis`
 
+Companion materials are non-canonical implementation guidance only. They do not modify, override, or supersede the canonical artifact stack in `/artifacts/`.
+
 ---
 
-*Companion materials are provided as-is for implementation guidance. They do not modify, override, or supersede the canonical artifact stack in the `/artifacts/` folder.*
+*Seam Discipline — Companion Materials*
+*ASRO™ is a trademark of MagicianzCardstock LLC. Serial No. 99827630.*
