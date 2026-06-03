@@ -1,9 +1,11 @@
-# Seam Discipline — Declaration Intake Profile v0.1
+# Seam Discipline — Declaration Intake Profile v0.2
 ## Reviewer-Side Intake Rubric for Independently Authored Governance Artifacts
 
 **Authority:** James Aull / MagicianzCardstock LLC
-**Date:** June 1, 2026
-**Status:** Canonical v0.1
+**Date:** June 3, 2026
+**Status:** Canonical v0.2
+
+**Version 0.2 changes:** Added question 10 — Declaration Validity Conditions. This field was identified through external pressure-testing by Shawn Bullock (Continuity Science / HGCI), who observed that the v0.1 profile preserved declaration integrity and boundary integrity but did not yet ask what conditions must remain true for a declaration to stay valid over time. Question 11 (Reviewer-Use Limitation) renumbered from question 10.
 
 ---
 
@@ -41,9 +43,9 @@ This profile does not:
 
 ---
 
-## The Ten Intake Questions
+## The Eleven Intake Questions
 
-A reviewer receiving any independently authored governance artifact applies the following ten intake questions. The answers are recorded for reviewer-side comparison purposes only.
+A reviewer receiving any independently authored governance artifact applies the following eleven intake questions. The answers are recorded for reviewer-side comparison purposes only.
 
 ---
 
@@ -165,7 +167,20 @@ What conditions would cause this artifact to produce a Divergence Event Record w
 
 ---
 
-### 10. Reviewer-Use Limitation
+### 10. Declaration Validity Conditions
+
+What conditions must remain true for this declaration to remain valid?
+
+- Conditions the declaring owner states are required for the declaration to hold — technical, organizational, policy, or operational
+- External conditions, if changed, that would require revalidation, amendment, or withdrawal of the declaration
+- Whether the declaring owner has specified a revalidation trigger, expiry, or staleness condition
+- Whether the declaration has a declared review cadence or update mechanism
+
+*Purpose: preserve the reality-continuity conditions underlying the declaration without making the intake profile a continuity layer or a judge of reality alignment. A declaration can remain internally coherent while the conditions it was built on have changed. Recording the declared validity conditions makes that drift visible to a reviewer without the intake profile itself enforcing or resolving it. This field records what the declaring layer said must remain true — not whether it currently does.*
+
+---
+
+### 11. Reviewer-Use Limitation
 
 What must the reviewer not do with this intake record?
 
@@ -183,7 +198,7 @@ Before a reviewer applies the ALIGN, COMPARE, or ATTEST operations to any artifa
 
 The intake record does not become part of the declaring owner's artifact. It is a reviewer-side document that lives in the reviewer's bundle alongside the Correlation Contract operations.
 
-If the declaring owner has published a machine-readable manifest — in GLM format or any other format — the reviewer uses that manifest as the source for intake questions 3, 4, 5, 6, 7, and 8. The manifest is not replaced or supplemented by the intake record. The intake record only organizes what the manifest declares into the reviewer's comparison surface.
+If the declaring owner has published a machine-readable manifest — in GLM format or any other format — the reviewer uses that manifest as the source for intake questions 3, 4, 5, 6, 7, 8, and 10. The manifest is not replaced or supplemented by the intake record. The intake record only organizes what the manifest declares into the reviewer's comparison surface.
 
 ---
 
@@ -199,6 +214,6 @@ If the declaring owner has published a machine-readable manifest — in GLM form
 
 ---
 
-*Seam Discipline — Declaration Intake Profile v0.1*
+*Seam Discipline — Declaration Intake Profile v0.2*
 *Reviewer-Side Intake Rubric for Independently Authored Governance Artifacts*
 *ASRO™ is a trademark of MagicianzCardstock LLC. Serial No. 99827630.*
