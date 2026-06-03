@@ -1,31 +1,40 @@
-# Seam Discipline — Composition Seam Discipline
+# Seam Discipline
 
-Seam Discipline is a reviewer-side governance discipline for composing independently governed AI system artifacts without collapsing their authority boundaries.
+AI governance is fragmenting into layers.
 
-It defines a small canonical artifact stack for comparing, correlating, and reviewing governance records across independently bounded layers while preserving each layer's sovereignty, non-claims, and evidentiary limits.
+Identity layers. Authorization layers. Execution control. Observability. Attestation. Audit. Policy translation. Institutional deployment. Continuity. Each one solving a real problem. None of them designed to work with the others without one absorbing the rest.
 
-The discipline is designed to support:
+The Seam Discipline is the methodology that keeps them comparable without collapsing them.
 
-- reviewer-side stitching
-- independent verification
-- divergence preservation
-- non-collapse between governance primitives
-- evidence without permission inheritance
-- comparison without enforcement authority
+It defines a small canonical artifact stack for comparing, correlating, and reviewing governance records across independently bounded layers — preserving each layer's sovereignty, non-claims, and evidentiary limits. When two governance layers need to be understood together, the Seam Discipline gives reviewers the tools to do that without letting one layer inherit authority from another.
+
+**The controlling invariant:**
+
+> *Divergence detection is not response authority assignment. The discipline preserves the question; it does not answer it.*
+
+---
+
+## The problem this solves
+
+Most AI governance frameworks address one layer well while leaving adjacent layers unresolved. A system can have verified agent identity, a valid deployment certificate, runtime execution controls, and comprehensive operational logs — and still operate in ways that are not independently reviewable at the moment consequence becomes possible.
+
+The gap is not in any single layer. It is in the absence of a neutral methodology allowing these layers to remain interoperable without any one layer absorbing the others.
+
+When two governance layers are compared without a discipline governing that comparison, one of two things happens: they blur into a single authority surface, or the comparison produces conclusions neither layer was designed to support. Both outcomes undermine the independence that makes each layer valuable.
+
+The Seam Discipline prevents that collapse.
 
 ---
 
 ## What this is
 
-The Seam Discipline is a set of invariants and minimal artifacts that enable reviewer-side stitching of independently governed AI governance artifacts — preserving each primitive's sovereignty, preventing authority inheritance, and ensuring divergence remains detectable without enforcement.
+A set of invariants and minimal artifacts that enable reviewer-side stitching of independently governed AI governance artifacts — preserving each layer's sovereignty, preventing authority inheritance, and ensuring divergence remains detectable without enforcement.
 
-It is intended for AI governance, auditability, attestation, evidentiary review, and interoperability research where multiple independently governed artifacts need to remain comparable without becoming a shared control layer.
+The discipline is designed for AI governance, auditability, attestation, evidentiary review, and interoperability research where multiple independently governed artifacts need to remain comparable without becoming a shared control layer.
 
 ---
 
 ## What this is not
-
-The Seam Discipline is not:
 
 - a runtime enforcement layer
 - a federation controller
@@ -36,33 +45,49 @@ The Seam Discipline is not:
 - a replacement for external governance review
 - a decision system for determining which layer is correct
 
-The controlling invariant is:
+---
 
-> *Divergence detection is not response authority assignment. The discipline preserves the question; it does not answer it.*
+## The artifact stack
+
+**1. Non-Collapse Invariant List v0.1**
+The rules that prevent comparison from becoming absorption. Defines the invariants that stop layer authority from drifting across governance boundaries when artifacts are composed together.
+
+**2. Correlation Contract v0.1**
+The minimal shared fields and reviewer-side operations needed to align and compare artifacts without merging authority surfaces. ALIGN, COMPARE, ATTEST — reviewer-side only.
+
+**3. Divergence Event Record v0.5.1**
+A passive, non-enforcement record for preserving structural mismatch when governed artifacts do not compose cleanly. Records the divergence. Does not resolve it.
+
+**4. Layer Non-Claims Matrix v0.1**
+The explicit negative space for each layer in a composed system — what each layer does not decide, authorize, enforce, or certify. External-layer rows require owner authorization before inclusion.
+
+**5. Review Bundle Map v0.1**
+The reviewer-facing navigation guide for locating artifacts, identifying absent artifacts, reviewing divergence records, and protecting against reassurance drift.
+
+**6. Declaration Intake Profile v0.2**
+The minimum reviewer-side intake questions needed to receive any independently authored governance artifact for comparison without transferring authority over the declaring layer. Includes Declaration Validity Conditions — what must remain true for a declaration to stay valid over time.
 
 ---
 
-## Canonical artifact stack
+## The Companion Layer Directory
 
-The current public artifact stack contains six documents:
+The Seam Discipline now includes a public Companion Layer Directory.
 
-**1. Non-Collapse Invariant List v0.1**
-Defines the negative-space invariants that prevent layer absorption, authority inheritance, pre-stitched governance views, and evidence-to-permission drift.
+Builders working on any layer of the AI governance stack — identity, authorization, execution control, observability, attestation, adversarial verification, audit, policy translation, institutional deployment, post-execution continuity — can declare their boundary in their own terms and become discoverable to adjacent layers.
 
-**2. Correlation Contract v0.1**
-Defines the minimal shared fields and reviewer-side operations needed to align and compare artifacts without merging authority surfaces.
+**The benefit is discoverability without absorption.**
 
-**3. Divergence Event Record v0.5.1**
-Defines a passive, non-enforcement record for preserving structural mismatch when governed artifacts do not compose cleanly.
+A completed Companion Layer Profile lets researchers, builders, reviewers, auditors, regulators, and procurement teams find your layer, understand what it claims and does not claim, and see where it sits in the broader governance stack — without implying endorsement, merger, certification, or authority transfer.
 
-**4. Layer Non-Claims Matrix v0.1**
-Records the explicit negative space for each primitive in the composed system — what each layer does not decide, authorize, enforce, or certify. External-layer rows require owner authorization before inclusion.
+See `/companions/README.md` to learn more or submit a profile.
 
-**5. Review Bundle Map v0.1**
-Provides a reviewer-facing navigation guide for locating artifacts, identifying absent artifacts, reviewing divergence records, and preserving the Reassurance Infrastructure Drift non-claim.
+---
 
-**6. Declaration Intake Profile v0.2**
-Defines the minimum reviewer-side intake questions needed to receive any independently authored governance artifact — GLM manifest, boundary document, README, specification, or other owner declaration — for comparison without transferring authority over the declaring layer. v0.2 adds question 10 — Declaration Validity Conditions: what conditions must remain true for a declaration to remain valid, and what would require revalidation, amendment, or withdrawal. Identified through external pressure-testing by Shawn Bullock (Continuity Science / HGCI).
+## The Living Governance Stack Map
+
+The `/stack-map/` folder contains a living map of the ten governance layer positions, the unsolved question each layer addresses, and the remaining gap in each layer that the field has not yet closed.
+
+It is a topology of the problem, not a solution. Layers are listed in the map only when the layer owner has explicitly authorized inclusion.
 
 ---
 
@@ -80,27 +105,17 @@ composition-seam-discipline/
 │   ├── Seam_Discipline_Layer_Non_Claims_Matrix_v0.1.md
 │   ├── Seam_Discipline_Review_Bundle_Map_v0.1.md
 │   └── Seam_Discipline_Declaration_Intake_Profile_v0.2.md
-└── companion/
-    └── README.md
+├── stack-map/
+│   └── Seam_Discipline_Living_Governance_Stack_Map_v0.1.md
+└── companions/
+    ├── README.md
+    └── profiles/
+        └── asro_companion_profile.md
 ```
 
 ---
 
-## Artifact status
-
-**Canonical v0.1:**
-
-- Non-Collapse Invariant List v0.1
-- Correlation Contract v0.1
-- Divergence Event Record v0.5.1
-- Layer Non-Claims Matrix v0.1
-- Review Bundle Map v0.1
-- Declaration Intake Profile v0.2
-
-
-## Core field names
-
-The canonical Correlation Contract field names are:
+## Canonical field names
 
 - `decision_correlation_id`
 - `event_window`
@@ -108,15 +123,11 @@ The canonical Correlation Contract field names are:
 - `artifact_hash`
 - `alignment_determination_basis`
 
-The Review Bundle Map and Layer Non-Claims Matrix preserve these field names for cross-document consistency.
-
 ---
 
 ## License
 
-The Seam Discipline artifacts are released under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
-
-You may share, adapt, and build upon the materials, including for commercial purposes, provided appropriate attribution is given.
+Released under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
 
 **Attribution:** James Aull / MagicianzCardstock LLC
 
@@ -124,8 +135,7 @@ You may share, adapt, and build upon the materials, including for commercial pur
 
 ## Trademark notice
 
-ASRO™ is a trademark of MagicianzCardstock LLC.
-USPTO Serial No. 99827630.
+ASRO™ is a trademark of MagicianzCardstock LLC. USPTO Serial No. 99827630.
 
 Use of the Seam Discipline artifacts does not grant rights to use the ASRO™ trademark except as permitted by applicable trademark law or with permission from MagicianzCardstock LLC.
 
@@ -133,13 +143,10 @@ Use of the Seam Discipline artifacts does not grant rights to use the ASRO™ tr
 
 ## Citation
 
-Suggested citation:
-
 > Aull, James. *Seam Discipline: Composition Seam Discipline v0.1.* MagicianzCardstock LLC, 2026.
 
 ---
 
 ## Maintainer
 
-James Aull
-MagicianzCardstock LLC
+James Aull / MagicianzCardstock LLC
