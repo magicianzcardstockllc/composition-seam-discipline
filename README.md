@@ -44,7 +44,7 @@ The controlling invariant is:
 
 ## Canonical artifact stack
 
-The v0.1 public artifact stack contains six documents:
+The current public artifact stack contains six documents:
 
 **1. Non-Collapse Invariant List v0.1**
 Defines the negative-space invariants that prevent layer absorption, authority inheritance, pre-stitched governance views, and evidence-to-permission drift.
@@ -61,8 +61,8 @@ Records the explicit negative space for each primitive in the composed system �
 **5. Review Bundle Map v0.1**
 Provides a reviewer-facing navigation guide for locating artifacts, identifying absent artifacts, reviewing divergence records, and preserving the Reassurance Infrastructure Drift non-claim.
 
-**6. Declaration Intake Profile v0.1**
-Defines the minimum reviewer-side intake questions needed to receive any independently authored governance artifact — GLM manifest, boundary document, README, specification, or other owner declaration — for comparison without transferring authority over the declaring layer.
+**6. Declaration Intake Profile v0.2**
+Defines the minimum reviewer-side intake questions needed to receive any independently authored governance artifact — GLM manifest, boundary document, README, specification, or other owner declaration — for comparison without transferring authority over the declaring layer. v0.2 adds question 10 — Declaration Validity Conditions: what conditions must remain true for a declaration to remain valid, and what would require revalidation, amendment, or withdrawal. Identified through external pressure-testing by Shawn Bullock (Continuity Science / HGCI).
 
 ---
 
@@ -79,7 +79,7 @@ composition-seam-discipline/
 │   ├── Seam_Discipline_Divergence_Event_Record_v0.5.1.md
 │   ├── Seam_Discipline_Layer_Non_Claims_Matrix_v0.1.md
 │   ├── Seam_Discipline_Review_Bundle_Map_v0.1.md
-│   └── Seam_Discipline_Declaration_Intake_Profile_v0.1.md
+│   └── Seam_Discipline_Declaration_Intake_Profile_v0.2.md
 └── companion/
     └── README.md
 ```
@@ -95,7 +95,7 @@ composition-seam-discipline/
 - Divergence Event Record v0.5.1
 - Layer Non-Claims Matrix v0.1
 - Review Bundle Map v0.1
-- Declaration Intake Profile v0.1
+- Declaration Intake Profile v0.2
 
 
 ## Core field names
