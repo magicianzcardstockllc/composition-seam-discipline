@@ -67,6 +67,9 @@ The reviewer-facing navigation guide for locating artifacts, identifying absent 
 **6. Declaration Intake Profile v0.2**
 The minimum reviewer-side intake questions needed to receive any independently authored governance artifact for comparison without transferring authority over the declaring layer. Includes Declaration Validity Conditions — what must remain true for a declaration to stay valid over time.
 
+**7. Cross-Trust-Boundary Seam Note v0.1**
+Reviewer guidance for composed governance paths where a governed layer interacts with an adjacent layer that cannot produce independently reviewable governed-state evidence. Defines opacity gaps, inference limits, four new cross-trust-boundary divergence codes, and review-bundle limitations for legacy systems, proprietary infrastructure, operational technology, and inherited authority surfaces.
+
 ---
 
 ## The Companion Layer Directory
@@ -104,7 +107,8 @@ composition-seam-discipline/
 │   ├── Seam_Discipline_Divergence_Event_Record_v0.5.1.md
 │   ├── Seam_Discipline_Layer_Non_Claims_Matrix_v0.1.md
 │   ├── Seam_Discipline_Review_Bundle_Map_v0.1.md
-│   └── Seam_Discipline_Declaration_Intake_Profile_v0.2.md
+│   ├── Seam_Discipline_Declaration_Intake_Profile_v0.2.md
+│   └── Seam_Discipline_Cross_Trust_Boundary_Seam_Note_v0.1.md
 ├── stack-map/
 │   └── Seam_Discipline_Living_Governance_Stack_Map_v0.1.md
 └── companions/
