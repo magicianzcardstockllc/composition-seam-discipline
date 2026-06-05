@@ -44,6 +44,8 @@ ASRO preserves independently reviewable evidence of the governed state active wh
 
 ASRO's primary function is to make the governed state of an AI deployment independently reviewable by a party outside the deploying system's trust boundary — without requiring that party to rely on the deploying system's own logs, explanations, or attestations.
 
+Where declared, ASRO also preserves evidence of any continuity rule, divergence threshold, and named revalidation or interruption responsibility active at the governed boundary. ASRO does not own continuity governance, enforce interruption, or make continuation conditional. Those functions belong to the governance or control layer that names the interruption authority. ASRO makes the declared continuity rule independently checkable — not the decision of whether to continue.
+
 **Timing position:** At-bind and pre-bind. ASRO captures governed-state evidence at or before the moment consequence becomes possible. It is not a post-execution reconstruction layer.
 
 **Operational scope:** AI deployment governance, independently checkable attestation, governed-state evidence preservation, reviewer-side evidence preservation.
