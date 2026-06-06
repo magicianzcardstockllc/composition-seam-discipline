@@ -86,6 +86,18 @@ See `/companions/README.md` to learn more or submit a profile.
 
 ---
 
+## Seam Comparison Records
+
+The `/seam-records/` folder contains bilateral comparison records produced by applying the Seam Discipline Declaration Intake Profile to two independently governed layers operating at the same or adjacent consequential boundary.
+
+Each record requires explicit authorization from both layer owners for the exact language appearing in the record. No seam comparison record is published without mutual authorization.
+
+**The Seam Discipline is credited as the reviewer-side comparison method that makes each record possible.**
+
+See `/seam-records/README.md` for the submission process and currently published records.
+
+---
+
 ## The Living Governance Stack Map
 
 The `/stack-map/` folder contains a living map of the ten governance layer positions, the unsolved question each layer addresses, and the remaining gap in each layer that the field has not yet closed.
@@ -110,11 +122,15 @@ composition-seam-discipline/
 │   ├── Seam_Discipline_Declaration_Intake_Profile_v0.2.md
 │   └── Seam_Discipline_Cross_Trust_Boundary_Seam_Note_v0.1.md
 ├── stack-map/
+│   ├── README.md
 │   └── Seam_Discipline_Living_Governance_Stack_Map_v0.1.md
-└── companions/
+├── companions/
+│   ├── README.md
+│   └── profiles/
+│       └── asro_companion_profile.md
+└── seam-records/
     ├── README.md
-    └── profiles/
-        └── asro_companion_profile.md
+    └── (authorized seam comparison records go here)
 ```
 
 ---
